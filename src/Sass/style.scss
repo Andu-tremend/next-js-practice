@@ -1,0 +1,44 @@
+@import "./variables.scss";
+@import "./Mixins/mixins.scss";
+
+// Components
+@import "./Components/Inputs/search.bar.scss";
+@import "./Components/Header/header.scss";
+@import "./Components/Elements/card.scss";
+@import "./Components/Elements/restaurant.heading.scss";
+@import "./Components/Elements/bubbles.scss";
+@import "./Components/Elements/Icon.scss";
+
+// Utilities
+@import "./Utilities/flex.scss";
+@import "./Utilities/miscelaneous.scss";
+
+// Typography
+@import "./typography.scss";
+
+// Pages
+@import "./Pages/homepage.scss";
+@import "./Pages/restaurant.scss";
+@import "./Pages//restaurants.scss";
+// Placeholder
+
+.placeholder {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+
+  &::after {
+    content: "Placeholder";
+    position: absolute; 
+    color: red;
+    font-size: 4rem;
+    opacity: .3;
+  }
+}
+
+* {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
+}

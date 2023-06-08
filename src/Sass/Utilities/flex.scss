@@ -1,0 +1,23 @@
+@mixin flexGap($gap) {
+  @if $gap {
+    gap: $gap
+  }
+}
+
+@mixin flex($horisontal, $vertical) {
+  display: flex;
+  justify-content: $horisontal;
+  align-items: $vertical;
+}
+
+.flex-center {
+  @include flex(center, center)
+}
+
+.flex-start {
+  @include flex(flex-start, center)
+}
+
+.flex-column {
+  flex-direction: column
+}

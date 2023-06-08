@@ -1,0 +1,352 @@
+{
+  "restaurants": [
+    
+    
+    {
+      "_id": "64429e2f976f439e3d851a85",
+      "name": "Alicia`s Burgers",
+      "category": "Traditionala",
+      "picture": "https://images.unsplash.com/photo-1579684947550-22e945225d9a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80",
+      "delivery": {
+        "time": 35,
+        "fee": 13,
+        "promotion": true
+      },
+      "rating": 24,
+      "discount": true,
+      "discountValue": 40,
+      "menu": [
+        {
+          "foodId": "64429e2f3dd327f21bc451f9",
+          "foodName": "Pizza Margerita",
+          "foodDescription": "Sunt irure commodo incididunt in aute.",
+          "foodPrice": 27,
+          "foodPicture": "https://res.cloudinary.com/glovoapp/w_600,f_auto,q_auto/Products/wgxb45zv1zkk4ltzr34o"
+        },
+        {
+          "foodId": "64429e2f3b4fa74e7fb141f4",
+          "foodName": "Pizza Capriciosa",
+          "foodDescription": "Ut ad dolore velit in.",
+          "foodPrice": 33,
+          "foodPicture": "https://res.cloudinary.com/glovoapp/w_600,f_auto,q_auto/Products/co30uct8tdl12ezzlcoi"
+        },
+        {
+          "foodId": "64429e2fa97c120abd2409ff",
+          "foodName": "Pizza Romana",
+          "foodDescription": "Minim nisi Lorem est nisi laborum excepteur dolore ullamco dolore eu id excepteur.",
+          "foodPrice": 64,
+          "foodPicture": "https://res.cloudinary.com/glovoapp/w_600,f_auto,q_auto/Products/co30uct8tdl12ezzlcoi"
+        },
+        {
+          "foodId": "64429e2f3f6d2b860bac6c3c",
+          "foodName": "Pizza Romana",
+          "foodDescription": "Commodo nostrud excepteur quis ullamco et magna adipisicing irure pariatur ullamco.",
+          "foodPrice": 36,
+          "foodPicture": "https://res.cloudinary.com/glovoapp/w_600,f_auto,q_auto/Products/j0jhgfupkaqohrh53yyo"
+        },
+        {
+          "foodId": "64429e2f67c20e154d46053e",
+          "foodName": "Paste Carbonara",
+          "foodDescription": "Quis non nostrud nulla et ut aliquip ea veniam.",
+          "foodPrice": 43,
+          "foodPicture": "https://res.cloudinary.com/glovoapp/w_600,f_auto,q_auto/Products/xq6f2dc5emmr8argtmlf"
+        },
+        {
+          "foodId": "64429e2f2a50398323dc2c0b",
+          "foodName": "Paste Alforno",
+          "foodDescription": "Deserunt ut aliqua anim eu veniam enim.",
+          "foodPrice": 77,
+          "foodPicture": "https://res.cloudinary.com/glovoapp/w_600,f_auto,q_auto/Products/co30uct8tdl12ezzlcoi"
+        },
+        {
+          "foodId": "64429e2f203376b53c7038ab",
+          "foodName": "Pizza Romana",
+          "foodDescription": "Mollit veniam enim occaecat duis eu Lorem reprehenderit.",
+          "foodPrice": 46,
+          "foodPicture": "https://res.cloudinary.com/glovoapp/w_600,f_auto,q_auto/Products/wgxb45zv1zkk4ltzr34o"
+        },
+        {
+          "foodId": "64429e2ff599dcc88ffd9007",
+          "foodName": "Pizza Capriciosa",
+          "foodDescription": "Eu deserunt duis esse ad et amet velit quis deserunt.",
+          "foodPrice": 73,
+          "foodPicture": "https://res.cloudinary.com/glovoapp/w_600,f_auto,q_auto/Products/co30uct8tdl12ezzlcoi"
+        },
+        {
+          "foodId": "64429e2f9f534a9d97d5fe4c",
+          "foodName": "Pizza Quatro Stagioni",
+          "foodDescription": "Occaecat reprehenderit exercitation velit aliqua quis.",
+          "foodPrice": 18,
+          "foodPicture": "https://res.cloudinary.com/glovoapp/w_600,f_auto,q_auto/Products/j0jhgfupkaqohrh53yyo"
+        },
+        {
+          "foodId": "64429e2f34cbc4b5d3977599",
+          "foodName": "Pizza Quatro Stagioni",
+          "foodDescription": "Ut non labore et reprehenderit.",
+          "foodPrice": 18,
+          "foodPicture": "https://res.cloudinary.com/glovoapp/w_600,f_auto,q_auto/Products/co30uct8tdl12ezzlcoi"
+        },
+        {
+          "foodId": "64429e2ff088f674b6c76224",
+          "foodName": "Pizza Capriciosa",
+          "foodDescription": "Aliqua ad sint duis elit consectetur duis pariatur.",
+          "foodPrice": 56,
+          "foodPicture": "https://res.cloudinary.com/glovoapp/w_600,f_auto,q_auto/Products/co30uct8tdl12ezzlcoi"
+        },
+        {
+          "foodId": "64429e2ffde16cbe38426a38",
+          "foodName": "Paste Carbonara",
+          "foodDescription": "Ipsum enim occaecat cupidatat cillum quis laboris.",
+          "foodPrice": 20,
+          "foodPicture": "https://res.cloudinary.com/glovoapp/w_600,f_auto,q_auto/Products/wgxb45zv1zkk4ltzr34o"
+        },
+        {
+          "foodId": "64429e2f854c0b1751cc52fa",
+          "foodName": "Paste Carbonara",
+          "foodDescription": "Labore minim sint ad esse anim commodo aliqua laborum.",
+          "foodPrice": 79,
+          "foodPicture": "https://res.cloudinary.com/glovoapp/w_600,f_auto,q_auto/Products/wgxb45zv1zkk4ltzr34o"
+        },
+        {
+          "foodId": "64429e2fb239bd4c80b44899",
+          "foodName": "Pizza Capriciosa",
+          "foodDescription": "Velit ipsum nostrud Lorem ex magna nisi pariatur cillum.",
+          "foodPrice": 54,
+          "foodPicture": "https://res.cloudinary.com/glovoapp/w_600,f_auto,q_auto/Products/co30uct8tdl12ezzlcoi"
+        },
+        {
+          "foodId": "64429e2f821b4bac7bd27a9d",
+          "foodName": "Pizza Quatro Stagioni",
+          "foodDescription": "Ex in incididunt id in exercitation.",
+          "foodPrice": 18,
+          "foodPicture": "https://res.cloudinary.com/glovoapp/w_600,f_auto,q_auto/Products/wgxb45zv1zkk4ltzr34o"
+        },
+        {
+          "foodId": "64429e2fa79d7f7767d3f5a7",
+          "foodName": "Pizza Quatro Stagioni",
+          "foodDescription": "Culpa nisi irure consequat ipsum cupidatat tempor pariatur occaecat sunt.",
+          "foodPrice": 75,
+          "foodPicture": "https://res.cloudinary.com/glovoapp/w_600,f_auto,q_auto/Products/wgxb45zv1zkk4ltzr34o"
+        },
+        {
+          "foodId": "64429e2f6a6be9ba974f90f9",
+          "foodName": "Pizza Margerita",
+          "foodDescription": "Esse minim occaecat ullamco nulla voluptate in pariatur ullamco nulla fugiat duis eiusmod.",
+          "foodPrice": 12,
+          "foodPicture": "https://res.cloudinary.com/glovoapp/w_600,f_auto,q_auto/Products/co30uct8tdl12ezzlcoi"
+        },
+        {
+          "foodId": "64429e2f709940a4d8cb26cc",
+          "foodName": "Pizza Margerita",
+          "foodDescription": "Laborum officia amet cillum quis incididunt aliquip minim voluptate.",
+          "foodPrice": 15,
+          "foodPicture": "https://res.cloudinary.com/glovoapp/w_600,f_auto,q_auto/Products/co30uct8tdl12ezzlcoi"
+        },
+        {
+          "foodId": "64429e2fd8dce49e93eb860e",
+          "foodName": "Pizza Romana",
+          "foodDescription": "Ullamco officia occaecat mollit amet est incididunt irure minim.",
+          "foodPrice": 43,
+          "foodPicture": "https://res.cloudinary.com/glovoapp/w_600,f_auto,q_auto/Products/wgxb45zv1zkk4ltzr34o"
+        },
+        {
+          "foodId": "64429e2fae5b10d2366e2bd8",
+          "foodName": "Pizza Margerita",
+          "foodDescription": "Elit aliquip magna ullamco irure tempor exercitation pariatur in aliqua magna.",
+          "foodPrice": 27,
+          "foodPicture": "https://res.cloudinary.com/glovoapp/w_600,f_auto,q_auto/Products/j0jhgfupkaqohrh53yyo"
+        },
+        {
+          "foodId": "64429e2f74682592b0f45650",
+          "foodName": "Paste Alforno",
+          "foodDescription": "Ipsum nostrud commodo nostrud sit labore dolore est exercitation anim magna anim deserunt labore anim.",
+          "foodPrice": 50,
+          "foodPicture": "https://res.cloudinary.com/glovoapp/w_600,f_auto,q_auto/Products/co30uct8tdl12ezzlcoi"
+        },
+        {
+          "foodId": "64429e2fb255ab63e0472f7c",
+          "foodName": "Paste Alforno",
+          "foodDescription": "Nisi dolore anim enim laboris velit nostrud ea Lorem elit anim.",
+          "foodPrice": 73,
+          "foodPicture": "https://res.cloudinary.com/glovoapp/w_600,f_auto,q_auto/Products/j0jhgfupkaqohrh53yyo"
+        },
+        {
+          "foodId": "64429e2ffc3fa2c5d379930c",
+          "foodName": "Pizza Capriciosa",
+          "foodDescription": "Occaecat cillum non incididunt laboris magna minim eiusmod tempor excepteur non.",
+          "foodPrice": 22,
+          "foodPicture": "https://res.cloudinary.com/glovoapp/w_600,f_auto,q_auto/Products/wgxb45zv1zkk4ltzr34o"
+        },
+        {
+          "foodId": "64429e2f38fab8ad98f6bd0d",
+          "foodName": "Paste Carbonara",
+          "foodDescription": "Aliqua pariatur pariatur et ullamco ipsum excepteur pariatur dolore esse sunt est.",
+          "foodPrice": 40,
+          "foodPicture": "https://res.cloudinary.com/glovoapp/w_600,f_auto,q_auto/Products/xq6f2dc5emmr8argtmlf"
+        }
+      ]
+    }
+  ],
+  "fakeCategories": [
+    {
+      "orice": [
+        {
+          "icon": "https://res.cloudinary.com/glovoapp/w_60,h_60,c_fit,f_auto,q_auto:best/CategoryGroups/ewavwqecgmyisd1mxisi",
+          "label": "Curier"
+        },
+        {
+          "icon": "https://res.cloudinary.com/glovoapp/w_60,h_60,c_fit,f_auto,q_auto:best/CategoryGroups/o1cpgnunt5hy1eale2gg",
+          "label": "Lorem"
+        },
+        {
+          "icon": "https://res.cloudinary.com/glovoapp/w_60,h_60,c_fit,f_auto,q_auto:best/CategoryGroups/cwbzdzahues1uvjkonjy",
+          "label": "Ipsum Dolor"
+        },
+        {
+          "icon": "https://res.cloudinary.com/glovoapp/w_60,h_60,c_fit,f_auto,q_auto:best/StoreCategories/vjrsq4lcpyqvg2dojh4p",
+          "label": "Donec leo "
+        },
+        {
+          "icon": "https://res.cloudinary.com/glovoapp/w_60,h_60,c_fit,f_auto,q_auto:best/CategoryGroups/vouu25lpefz3yizilvuc",
+          "label": "Aenean aliquet "
+        },
+        {
+          "icon": "https://res.cloudinary.com/glovoapp/w_60,h_60,c_fit,f_auto,q_auto:best/CategoryGroups/tcz6oniiebhumhilbvuu",
+          "label": "Vestibulum "
+        },
+        {
+          "icon": "https://res.cloudinary.com/glovoapp/w_60,h_60,c_fit,f_auto,q_auto:best/CategoryGroups/tcz6oniiebhumhilbvuu",
+          "label": "Vestibulum "
+        }
+      ]
+    },
+    {
+      "magazine": [
+        {
+          "icon": "https://res.cloudinary.com/glovoapp/w_60,h_60,c_fit,f_auto,q_auto:best/CategoryGroups/cwbzdzahues1uvjkonjy",
+          "label": "Ipsum Dolor"
+        },
+        {
+          "icon": "https://res.cloudinary.com/glovoapp/w_60,h_60,c_fit,f_auto,q_auto:best/StoreCategories/vjrsq4lcpyqvg2dojh4p",
+          "label": "Donec leo "
+        },
+        {
+          "icon": "https://res.cloudinary.com/glovoapp/w_60,h_60,c_fit,f_auto,q_auto:best/CategoryGroups/vouu25lpefz3yizilvuc",
+          "label": "Aenean aliquet "
+        },
+        {
+          "icon": "https://res.cloudinary.com/glovoapp/w_60,h_60,c_fit,f_auto,q_auto:best/CategoryGroups/tcz6oniiebhumhilbvuu",
+          "label": "Vestibulum "
+        },
+        {
+          "icon": "https://res.cloudinary.com/glovoapp/w_60,h_60,c_fit,f_auto,q_auto:best/CategoryGroups/tcz6oniiebhumhilbvuu",
+          "label": "Vestibulum "
+        },
+        {
+          "icon": "https://res.cloudinary.com/glovoapp/w_60,h_60,c_fit,f_auto,q_auto:best/CategoryGroups/tcz6oniiebhumhilbvuu",
+          "label": "Vestibulum "
+        }
+      ]
+    },
+    {
+      "supermarket": [
+        {
+          "icon": "https://res.cloudinary.com/glovoapp/w_60,h_60,c_fit,f_auto,q_auto:best/CategoryGroups/cwbzdzahues1uvjkonjy",
+          "label": "Ipsum Dolor"
+        },
+        {
+          "icon": "https://res.cloudinary.com/glovoapp/w_60,h_60,c_fit,f_auto,q_auto:best/StoreCategories/vjrsq4lcpyqvg2dojh4p",
+          "label": "Donec leo "
+        },
+        {
+          "icon": "https://res.cloudinary.com/glovoapp/w_60,h_60,c_fit,f_auto,q_auto:best/StoreCategories/vjrsq4lcpyqvg2dojh4p",
+          "label": "Donec leo "
+        },
+        {
+          "icon": "https://res.cloudinary.com/glovoapp/w_60,h_60,c_fit,f_auto,q_auto:best/StoreCategories/vjrsq4lcpyqvg2dojh4p",
+          "label": "Donec leo "
+        }
+      ]
+    },
+    {
+      "mancare": [
+        {
+          "icon": "https://res.cloudinary.com/glovoapp/w_60,h_60,c_fit,f_auto,q_auto:best/CategoryGroups/cwbzdzahues1uvjkonjy",
+          "label": "Ipsum Dolor"
+        },
+        {
+          "icon": "https://res.cloudinary.com/glovoapp/w_60,h_60,c_fit,f_auto,q_auto:best/StoreCategories/vjrsq4lcpyqvg2dojh4p",
+          "label": "Donec leo "
+        }
+      ]
+    },
+    {
+      "Cadouri de craciun": [
+        {
+          "icon": "https://res.cloudinary.com/glovoapp/w_60,h_60,c_fit,f_auto,q_auto:best/CategoryGroups/cwbzdzahues1uvjkonjy",
+          "label": "Ipsum Dolor"
+        },
+        {
+          "icon": "https://res.cloudinary.com/glovoapp/w_60,h_60,c_fit,f_auto,q_auto:best/StoreCategories/vjrsq4lcpyqvg2dojh4p",
+          "label": "Donec leo "
+        }
+      ]
+    },
+    {
+      "Glovo express": [
+        {
+          "icon": "https://res.cloudinary.com/glovoapp/w_60,h_60,c_fit,f_auto,q_auto:best/CategoryGroups/cwbzdzahues1uvjkonjy",
+          "label": "Ipsum Dolor"
+        },
+        {
+          "icon": "https://res.cloudinary.com/glovoapp/w_60,h_60,c_fit,f_auto,q_auto:best/StoreCategories/vjrsq4lcpyqvg2dojh4p",
+          "label": "Donec leo "
+        }
+      ]
+    },
+    {
+      "Glovos express": [
+        {
+          "icon": "https://res.cloudinary.com/glovoapp/w_60,h_60,c_fit,f_auto,q_auto:best/CategoryGroups/cwbzdzahues1uvjkonjy",
+          "label": "Ipsum Dolor"
+        },
+        {
+          "icon": "https://res.cloudinary.com/glovoapp/w_60,h_60,c_fit,f_auto,q_auto:best/StoreCategories/vjrsq4lcpyqvg2dojh4p",
+          "label": "Donec leo "
+        }
+      ]
+    }
+  ],
+  "cart": [
+    {
+      "restaurant": "Woods`s Restaurant",
+      "order": [
+        {
+          "foodId": "64429e2f265c967cc6233327",
+          "foodName": "Paste Alforno",
+          "foodDescription": "Labore quis ex non anim pariatur incididunt dolore cupidatat sunt laboris.",
+          "foodPrice": 53,
+          "foodPicture": "https://res.cloudinary.com/glovoapp/w_600,f_auto,q_auto/Products/wgxb45zv1zkk4ltzr34o",
+          "count": 0
+        },
+        {
+          "foodId": "64429e2f265c967cc6233327",
+          "foodName": "Paste Alforno",
+          "foodDescription": "Labore quis ex non anim pariatur incididunt dolore cupidatat sunt laboris.",
+          "foodPrice": 53,
+          "foodPicture": "https://res.cloudinary.com/glovoapp/w_600,f_auto,q_auto/Products/wgxb45zv1zkk4ltzr34o",
+          "count": 1
+        },
+        {
+          "foodId": "64429e2f265c967cc6233327",
+          "foodName": "Paste Alforno",
+          "foodDescription": "Labore quis ex non anim pariatur incididunt dolore cupidatat sunt laboris.",
+          "foodPrice": 53,
+          "foodPicture": "https://res.cloudinary.com/glovoapp/w_600,f_auto,q_auto/Products/wgxb45zv1zkk4ltzr34o",
+          "count": 2
+        }
+      ],
+      "id": 1
+    }
+  ]
+}

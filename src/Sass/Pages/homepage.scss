@@ -1,0 +1,61 @@
+.hp__yellow-wrapper {
+  background-color: $primary;
+  position: relative;
+
+  &::after {
+    content: "";
+    background-image: url('../StaticFiles/SVGs/curve--small.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: $base-size * 4;
+    position: absolute;
+  }
+}
+
+.hp__filter-wrapper {
+  padding-bottom: $base-size * 8.5
+}
+
+.hp__other-pages {
+
+  &-wrapper {
+    background-color: $light-green;
+    position: relative;
+    margin-top: $base-size * 8;
+    padding-bottom: $base-size * 8; ;
+
+    &::before {
+      content:"";
+      width: 100%;
+      height: $base-size * 8;
+      background-image: url('../StaticFiles/SVGs/blue-wave.svg');
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      position: absolute;
+      top: -$base-size * 8;
+
+    }
+  }
+
+  &-heading {
+    text-align: center;
+    transform: translateY(-$base-size * 6);
+    
+    & img {
+      max-width: 100px;
+    }
+  }
+
+  &-column-wrapper {
+    text-align: center;
+
+    & img {
+      max-width: 100%;
+    }
+  }
+
+
+}

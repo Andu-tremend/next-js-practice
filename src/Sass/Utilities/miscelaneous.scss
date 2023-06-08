@@ -1,0 +1,17 @@
+.highlighted-heading {
+  position: relative;
+  width: fit-content;
+  margin-bottom: $base-size * 2;
+
+  &::before {
+    position: absolute;
+    content: "";
+    background: $primary;
+    width: 40%;
+    height: 70%;
+    z-index: -1;
+    border-radius: 1rem;
+    left: -2px;
+    bottom: 0;
+  }
+}

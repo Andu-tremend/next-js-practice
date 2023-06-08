@@ -1,0 +1,24 @@
+.search-bar {
+  
+  input {
+    border-radius: $border-radius-pill;
+    width: 100%;
+    height: $base-size * 2.75;
+    border: none;
+    padding: 0 $base-size;
+    text-align: center;
+    transition: all .2s ease-in;
+    font-size: calc(#{$base-size } + 2px);
+    background-color: $darker-white;
+
+    &:focus-visible {
+      border: none;
+      outline: none;
+      text-align: left;
+
+      &::placeholder {
+        color: transparent;
+      }
+    }
+  }
+}

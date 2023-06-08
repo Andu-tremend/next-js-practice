@@ -1,0 +1,76 @@
+.card {
+  overflow: visible;
+  font-size: $base-size * 0.9;
+  cursor: pointer;
+  
+  &__card-header {
+    min-height: $base-size * 10;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+    background-size: 100%;
+    background-blend-mode: overlay;
+    background-color: #0000005e;
+    position: relative;
+    border-radius: $border-radius-small $border-radius-small 0 0 ;
+    transition: background-size .1s linear;
+
+    &:hover {
+      background-size: 105%;
+    }
+
+
+    & .card__discount-badge {
+      position: absolute;
+      top: -$base-size;
+      right: $base-size;
+      background-color: $primary;
+      padding: $base-size / 3 $base-size;
+      font-size: $base-size;
+      font-weight: 700;
+      border-radius: 0 0 $border-radius-small / 2 $border-radius-small / 2;
+    }
+    
+  
+    & h3 {
+      color: $white;
+      font-size: $base-size * 1.5;
+      text-shadow: 0 1px 4px rgb(0 0 0 / 60%);
+    }
+
+    &-no-bg {
+      display: flex;
+      gap: $base-size;
+    } 
+  }
+
+
+  &__info {
+    @include flex(space-between, center );
+    padding: $base-size * 0.8;
+  }
+
+  &__delivery-rating {
+    gap: $base-size / 4;
+    @include flex(space-between, center );
+    & > img {
+      max-width: $base-size;
+    }
+  }
+
+  &__delivery-info {
+    @include flex(center, center);
+    gap: $base-size / 4;
+
+    & .card__delivery-price {
+      @include flex(center, center);
+      gap: $base-size / 6;
+    }
+
+    & .card__delivery-time {
+      font-weight: bold;
+    }
+  }
+} 
+

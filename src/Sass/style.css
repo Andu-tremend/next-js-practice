@@ -1,0 +1,302 @@
+.search-bar input {
+  border-radius: 2rem;
+  width: 100%;
+  height: 2.75rem;
+  border: none;
+  padding: 0 1rem;
+  text-align: center;
+  transition: all 0.2s ease-in;
+  font-size: calc(1rem + 2px);
+  background-color: #f5f5f5;
+}
+.search-bar input:focus-visible {
+  border: none;
+  outline: none;
+  text-align: left;
+}
+.search-bar input:focus-visible::-moz-placeholder {
+  color: transparent;
+}
+.search-bar input:focus-visible::placeholder {
+  color: transparent;
+}
+
+header {
+  background-color: #ffc244;
+  position: sticky;
+  top: -1rem;
+  z-index: 9;
+}
+
+.card {
+  overflow: visible;
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+.card__card-header {
+  min-height: 10rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-position: center;
+  background-size: 100%;
+  background-blend-mode: overlay;
+  background-color: rgba(0, 0, 0, 0.368627451);
+  position: relative;
+  border-radius: 0.5rem 0.5rem 0 0;
+  transition: background-size 0.1s linear;
+}
+.card__card-header:hover {
+  background-size: 105%;
+}
+.card__card-header .card__discount-badge {
+  position: absolute;
+  top: -1rem;
+  right: 1rem;
+  background-color: #ffc244;
+  padding: 0.3333333333rem 1rem;
+  font-size: 1rem;
+  font-weight: 700;
+  border-radius: 0 0 0.25rem 0.25rem;
+}
+.card__card-header h3 {
+  color: #ffffff;
+  font-size: 1.5rem;
+  text-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);
+}
+.card__card-header-no-bg {
+  display: flex;
+  gap: 1rem;
+}
+.card__info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.8rem;
+}
+.card__delivery-rating {
+  gap: 0.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.card__delivery-rating > img {
+  max-width: 1rem;
+}
+.card__delivery-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.25rem;
+}
+.card__delivery-info .card__delivery-price {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.1666666667rem;
+}
+.card__delivery-info .card__delivery-time {
+  font-weight: bold;
+}
+
+.restaurant-heading__heading {
+  font-size: 2.5rem;
+}
+
+.restaurant-heading__info-wrapper {
+  gap: 0.5rem;
+}
+
+.bubble-item {
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -65px;
+  text-align: center;
+}
+
+.addIcon {
+  background-color: #e9f8f5;
+  color: #00a082;
+  padding: 0.25rem;
+  border-radius: 100%;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-start {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.highlighted-heading {
+  position: relative;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin-bottom: 2rem;
+}
+.highlighted-heading::before {
+  position: absolute;
+  content: "";
+  background: #ffc244;
+  width: 40%;
+  height: 70%;
+  z-index: -1;
+  border-radius: 1rem;
+  left: -2px;
+  bottom: 0;
+}
+
+h1,
+h2 {
+  margin: 2rem 0;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 2.5rem;
+}
+
+h3 {
+  font-size: 1.75rem;
+  margin-bottom: 1rem;
+}
+
+.hp__yellow-wrapper {
+  background-color: #ffc244;
+  position: relative;
+}
+.hp__yellow-wrapper::after {
+  content: "";
+  background-image: url("../StaticFiles/SVGs/curve--small.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 4rem;
+  position: absolute;
+}
+
+.hp__filter-wrapper {
+  padding-bottom: 8.5rem;
+}
+
+.hp__other-pages-wrapper {
+  background-color: #e9f8f5;
+  position: relative;
+  margin-top: 8rem;
+  padding-bottom: 8rem;
+}
+.hp__other-pages-wrapper::before {
+  content: "";
+  width: 100%;
+  height: 8rem;
+  background-image: url("../StaticFiles/SVGs/blue-wave.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  top: -8rem;
+}
+.hp__other-pages-heading {
+  text-align: center;
+  transform: translateY(-6rem);
+}
+.hp__other-pages-heading img {
+  max-width: 100px;
+}
+.hp__other-pages-column-wrapper {
+  text-align: center;
+}
+.hp__other-pages-column-wrapper img {
+  max-width: 100%;
+}
+
+.restaurant-page__wrapper {
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+}
+.restaurant-page__wrapper .restaurant-page__bg-image {
+  position: absolute;
+  top: -1px;
+  left: -1%;
+  z-index: -1;
+  max-height: 12rem;
+  width: 102%;
+  overflow: hidden;
+}
+.restaurant-page__wrapper .restaurant-page__bg-image > img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  max-height: 12rem;
+  filter: blur(0.5rem);
+}
+.restaurant-page__wrapper .restaurant-page__header-wrapper {
+  margin-bottom: 2rem;
+}
+
+.restaurants__filter {
+  list-style: none;
+}
+.restaurants__filter > li {
+  padding: 1rem 0;
+  border-bottom: 1px solid #e4e4e4;
+}
+.restaurants__filter > li .filter__icon {
+  background-color: #fff3da;
+  border-radius: 2rem;
+  padding: 0.25rem;
+  width: 1.5rem;
+  display: flex;
+  justify-content: center;
+}
+.restaurants__filter > li .filter__icon svg {
+  width: 1rem;
+}
+.restaurants__filter > li a {
+  text-decoration: none;
+  color: #1d1d1d;
+}
+.restaurants__filter > li.active {
+  font-weight: bold;
+}
+.restaurants__filter > li.active .filter__icon {
+  background-color: #ffc244;
+}
+
+.placeholder {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.placeholder::after {
+  content: "Placeholder";
+  position: absolute;
+  color: red;
+  font-size: 4rem;
+  opacity: 0.3;
+}
+
+* {
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  padding: 0;
+}/*# sourceMappingURL=style.css.map */

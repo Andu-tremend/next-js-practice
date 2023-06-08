@@ -1,0 +1,17 @@
+h1,
+h2 {
+  margin: $base-size * 2 0;
+}
+
+h1 {
+  font-size: $base-size * 2;
+}
+
+h2 {
+  font-size: $base-size * 2.5;
+}
+
+h3 {
+  font-size: $base-size * 1.75;
+  margin-bottom: $base-size;
+}
